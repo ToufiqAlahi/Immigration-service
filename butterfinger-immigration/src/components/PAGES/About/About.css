@@ -1,0 +1,27 @@
+.about-header{
+    font-size: 4em;
+    font-weight: bold;
+    color: #c026d3 !important;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+.about-text{
+    padding: 0 50px;
+    font-size: 1.5em;
+}
+
+.my-img{
+width: 40vw;
+margin-left: 2rem;
+border-radius: 20px;
+box-shadow: 10px 10px 8px 10px #888888;
+}
