@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <>
             <Banner></Banner>
+            <h1  className="news-header"> Toufiq's Immigration Consultancy</h1>
             <Service></Service>
             <div className="news-container">
                 <h1 className="news-header"> Immigration News and Updates </h1>
