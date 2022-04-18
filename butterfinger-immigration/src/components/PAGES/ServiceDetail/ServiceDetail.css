@@ -1,0 +1,9 @@
+.checkout-container img {
+  width: 100%;
+  height: auto;
+  border: 5px solid rgba(128, 128, 128, 0.178);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+

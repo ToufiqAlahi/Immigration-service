@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/common/Header/Header'
-import Banner from './components/PAGES/Banner/Banner';
 import Home from './components/PAGES/Home/Home/Home';
 import About from './components/PAGES/About/About';
 import ServiceDetail from './components/PAGES/ServiceDetail/ServiceDetail';
@@ -11,13 +10,13 @@ import Register from './components/PAGES/Register/Register';
 import RequireAuth from './components/PAGES/Login/RequireAuth/RequireAuth';
 import Checkout from './components/PAGES/Checkout/Checkout/Checkout';
 import NotFound from './components/PAGES/NotFound/NotFound';
+import Footer from './components/common/Footer/Footer';
 
 
 
 function App() {
     return (
         <div className="App">
-
             <Header></Header>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
@@ -43,6 +42,7 @@ function App() {
              <Route path="*" element={<NotFound></NotFound>}></Route>*/}
              <Route path="*" element={<NotFound></NotFound>}></Route>
             </Routes>
+            <Footer> </Footer>
 
         </div>
     );
