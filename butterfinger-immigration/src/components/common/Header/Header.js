@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Nav, Navbar,} from "react-bootstrap";
+import { Container, Nav, Navbar, } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
 const Header = () => {
-    
+
     return (
-        <div>
+        <div className="mb-5">
             <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/" href="#home">
@@ -22,13 +22,13 @@ const Header = () => {
                                 About
                             </Nav.Link>
                             <Nav.Link href="home#services">Services</Nav.Link>
-                            
+
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="/blog">
                                 Blog
                             </Nav.Link>
-                            
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
