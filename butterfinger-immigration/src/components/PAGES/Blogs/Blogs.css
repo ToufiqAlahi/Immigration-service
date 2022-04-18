@@ -6,6 +6,29 @@
     transition: max-height .35s;
 }
 
+.qna-head{
+    color: #86198f;
+    padding: 10px;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.qna-span{
+    font-size: .3em;
+}
+
+.question{
+    color: #86198f;
+    font-weight: 600;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.ans{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0 7em;
+}
+
 /* :checked - resize to full height */
 .tab input:checked~.tab-content {
     max-height: 100vh;
