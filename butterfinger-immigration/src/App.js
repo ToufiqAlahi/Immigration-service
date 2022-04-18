@@ -8,7 +8,7 @@ import Home from './components/PAGES/Home/Home/Home';
 function App() {
     return (
         <div className="App">
-            <h1 className='text-danger'> Hello !! </h1>
+            
             <Header></Header>
             
             <Home></Home>
