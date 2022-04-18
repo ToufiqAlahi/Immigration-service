@@ -10,6 +10,7 @@ import Blogs from './components/PAGES/Blogs/Blogs';
 import Register from './components/PAGES/Register/Register';
 import RequireAuth from './components/PAGES/Login/RequireAuth/RequireAuth';
 import Checkout from './components/PAGES/Checkout/Checkout/Checkout';
+import NotFound from './components/PAGES/NotFound/NotFound';
 
 
 
@@ -40,6 +41,7 @@ function App() {
 
                 {/* <Route path='/' element={}></Route>
              <Route path="*" element={<NotFound></NotFound>}></Route>*/}
+             <Route path="*" element={<NotFound></NotFound>}></Route>
             </Routes>
 
         </div>
