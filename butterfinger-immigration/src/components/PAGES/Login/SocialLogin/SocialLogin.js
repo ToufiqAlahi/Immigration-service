@@ -7,6 +7,7 @@ import { useSignInWithFacebook } from "react-firebase-hooks/auth";
 import auth from "../../../../firebase.init";
 import { useNavigate } from "react-router-dom";
 import Loading from "../../Home/Loading/Loading";
+import './sociallogin.css'
 
 const SocialLogin = () => {
     const [signInWithFacebook, user, loading, error] =
@@ -34,26 +35,27 @@ const SocialLogin = () => {
                 <div style={{ height: "1px" }} className="bg-primary w-50"></div>
             </div>
 
-            <div>
+            <div className="social-btn ">
                 <Button
+                    className="btn"
                     onClick={() => signInWithFacebook()}
                     variant="secondary"
-                    type="submit"
+                type="submit"
                 >
-                    <img style={{ width: "30px" }} src={fbLogo} alt="" />
-                    <span className="px-2">FaceBook Sign In</span>
-                </Button>
-                {errorElement}
-                <Button variant="info" type="submit">
-                    <img style={{ width: "30px" }} src={googleLogo} alt="" />
-                    <span className="px-2 text-white">Google Sign In</span>
-                </Button>
-                <Button variant="warning" type="submit">
-                    <img style={{ width: "30px" }} src={githubLogo} alt="" />
-                    <span className="px-2">GitHub Sign In</span>
-                </Button>
-            </div>
+                <img style={{ width: "30px" }} src={fbLogo} alt="" />
+                <span className="px-2">FaceBook Sign In</span>
+            </Button>
+            {errorElement}
+            <Button variant="info" type="submit">
+                <img style={{ width: "30px" }} src={googleLogo} alt="" />
+                <span className="px-2 text-white">Google Sign In</span>
+            </Button>
+            <Button variant="warning" type="submit">
+                <img style={{ width: "30px" }} src={githubLogo} alt="" />
+                <span className="px-2">GitHub Sign In</span>
+            </Button>
         </div>
+        </div >
     );
 };
 

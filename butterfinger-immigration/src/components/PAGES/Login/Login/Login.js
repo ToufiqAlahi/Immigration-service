@@ -51,8 +51,8 @@ const Login = () => {
 
     return (
         <div>
-            <h2 className="text-primary text-center mt-4">Login Please</h2>
-            <div className="w-50 mx-auto">
+            <h2 className=" text-center mt-4 fs-1"> Please Login </h2>
+            <div className="w-25 mx-auto">
                 <br />
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
