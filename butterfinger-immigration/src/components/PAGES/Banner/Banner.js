@@ -6,12 +6,12 @@ import banner3 from "../../../Images/Banner/b3.jpg";
 
 const Banner = () => {
     return (
-        <Carousel fade className="h-75">
+        <Carousel fade className="mb-5">
             <Carousel.Item>
                 <img className="d-block w-100" src={banner1} alt="First slide" />
                 <Carousel.Caption className="text-black">
                     <h2>Student Scholarship</h2>
-                    <p>
+                    <p className="p-2 fs-2">
                         “Looking for full funded Scholarship? Consult now!”
                     </p>
                 </Carousel.Caption>
@@ -21,7 +21,7 @@ const Banner = () => {
 
                 <Carousel.Caption>
                     <h2>Business Immigration</h2>
-                    <p>
+                    <p className="p-2 fs-2">
                         “Looking for Business Immigration? Consult now!”.
                     </p>
                 </Carousel.Caption>
@@ -31,7 +31,7 @@ const Banner = () => {
 
                 <Carousel.Caption className="text-black">
                     <h2>Skilled Migration</h2>
-                    <p>
+                    <p className="p-2 fs-2">
                         “Looking for Skilled Migration? Consult now!”
                     </p>
                 </Carousel.Caption>
