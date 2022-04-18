@@ -2,13 +2,23 @@
     404 page
 =======================*/
 
-
+.container-404{
+    margin-top: 150px;
+}
 .page_404 {
     padding: 40px 0;
     margin: -150px;
     justify-content: center;
     background: #fff;
     font-family: 'Arvo', serif;
+}
+
+.text-404{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
 }
 
 .page_404 img {
@@ -22,7 +32,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 .four_zero_four_bg h1 {
     font-size: 80px;
